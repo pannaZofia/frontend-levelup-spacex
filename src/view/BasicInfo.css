@@ -1,0 +1,13 @@
+.BasicInfo {
+  padding-bottom: 3%;
+}
+
+.basic_info_element {
+  display: inline-block;
+  width: 45%;
+  margin: auto;
+  margin-left: 2.5%;
+  vertical-align: top;
+  border-radius: 5%;
+  background-color: "green";
+}
