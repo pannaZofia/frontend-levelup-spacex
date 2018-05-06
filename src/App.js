@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import launch from './assets/launch.json';
+import launchSite from './assets/launch_site.json';
+import rocket from './assets/rocket.json';
+import LaunchDetails from './view/LaunchDetails';
 
-class App extends Component {
+class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <main>
+        <LaunchDetails
+          launch={launch}
+          launchSite={launchSite}
+          rocket={rocket}
+        />
+      </main>
     );
   }
 }
