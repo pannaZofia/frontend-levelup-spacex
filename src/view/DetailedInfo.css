@@ -1,0 +1,22 @@
+.DetailedInfo {
+  padding-bottom: 3%;
+}
+
+.DetailedInfo div {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  background-color: #a7a9ac;
+  margin-left: 2.5%;
+  height: 500px;
+  vertical-align: top;
+  border-radius: 5%;
+}
+
+.DetailedInfo div h3 {
+  padding: 3%;
+}
+
+.DetailedInfo div p {
+  padding: 3%;
+}

@@ -1,0 +1,12 @@
+.footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 150px;
+  vertical-align: middle;
+}
+
+.footer_image {
+  display: block;
+  margin: auto;
+  width: 30%;
+}

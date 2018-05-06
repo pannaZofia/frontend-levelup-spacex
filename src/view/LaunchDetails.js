@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './LaunchDetails.css';
 import Header from './Header';
 import MainInfo from './MainInfo';
-import './LaunchDetails.css';
+import Footer from './Footer';
 
 class LaunchDetails extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class LaunchDetails extends React.Component {
         launch={this.props.launch}
         launchSite={this.props.launchSite}
         rocket={this.props.rocket} />
-      Launch flight number: {this.props.launch.flight_number}
+        <Footer />
       </div>
     );
   }
