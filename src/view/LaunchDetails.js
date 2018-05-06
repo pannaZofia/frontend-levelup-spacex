@@ -5,7 +5,8 @@ class LaunchDetails extends React.Component {
   render() {
     return (
       <div>
-      Ble
+      Ble<br />
+      Launch flight number: {this.props.launch.flight_number}
       </div>
     );
   }
